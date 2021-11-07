@@ -1,5 +1,6 @@
-# homeworks
+# тут все мои homeworks
 
+а это - личная шпора
 cкрещиваем два списка в list с помощью zip
 
 a = [i*2 for i in range(1,5)]
