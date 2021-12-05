@@ -1,7 +1,3 @@
-import random
-from random import randint
-
-
 def is_monotonic(nums):
     result = False
     increases = 0
@@ -19,10 +15,3 @@ def is_monotonic(nums):
         result = True
 
     return result
-
-
-n = int(input())
-nums = [randint(1, n) for i in range(n)]
-
-#print(nums)
-print(is_monotonic(nums))
