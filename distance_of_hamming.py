@@ -1,6 +1,3 @@
-import codecs, os
-from time import sleep
-
 def distance_of_hamming(standard:str, string:str) -> int:
     distance = 0
     for i in range(len(standard)):
@@ -9,6 +6,10 @@ def distance_of_hamming(standard:str, string:str) -> int:
     return distance
 
 if __name__ == '__main__':
+    import codecs
+    from os import startfile
+    from time import sleep
+
     a = input('''Добро пожаловать! Это программа сортирует строки файла по возрастанию расстояния Хэмминга. Программа запросит у вас файл со строками для сортировки и саму эталонную строку. Чтобы продолжить работу программы, нажмите Enter. Чтобы выйти, напишите "exit" \n''')
 
     while True:
@@ -43,8 +44,6 @@ if __name__ == '__main__':
                 for i in result:
                     result1.write(i)
                     result1.write('\n')
-            os.startfile('output.txt')
+            startfile('output.txt')
             
         a = str(input('Для выхода напишите "exit", для продолжения нажмите Enter\n'))
-        
- 
