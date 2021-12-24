@@ -44,12 +44,6 @@ if __name__ == '__main__':
                     result1.write('\n')
             os.startfile('output.txt')
             
-        b = str(input('Для выхода напишите "exit", для продолжения нажмите Enter\n'))
-        print('\n')
-        print('\n')
-        if b == 'exit':
-            print('До новых встреч!')
-            time.sleep(2)
-            break
+        a = str(input('Для выхода напишите "exit", для продолжения нажмите Enter\n'))
         
-    
+ 
