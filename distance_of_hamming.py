@@ -1,4 +1,5 @@
-import codecs, time, os
+import codecs, os
+from time import sleep
 
 def distance_of_hamming(standard:str, string:str) -> int:
     distance = 0
@@ -13,7 +14,7 @@ if __name__ == '__main__':
     while True:
         if a == 'exit':
             print('До новых встреч!')
-            time.sleep(2)
+            sleep(2)
             break
     
         standard = str(input('Эталонная строка:\n'))
